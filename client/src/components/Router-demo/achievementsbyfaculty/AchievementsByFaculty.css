@@ -1,0 +1,93 @@
+.articles-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.articles-heading {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-footer {
+  background-color: #fff;
+  border-top: none;
+}
+
+.custom-btn {
+  background-color: #4F46E5;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #3730A3;
+}
+
+.custom-btn.btn-4 span {
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.custom-btn.btn-4 span::after {
+  content: '\00BB';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.custom-btn.btn-4:hover span {
+  padding-right: 25px;
+}
+
+.custom-btn.btn-4:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.no-achievements-text{
+  text-align: center;
+}

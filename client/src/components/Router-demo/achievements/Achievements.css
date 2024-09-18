@@ -1,0 +1,82 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #ffffff; /* White background */
+  padding-top: 20px;
+  z-index: 1000;
+}
+
+.content-container {
+  margin-left: 250px; /* Adjust this value to match the width of your sidebar */
+  padding: 20px;
+}
+
+.achievements-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.articles-heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.filters-container {
+  margin-bottom: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 0 15px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-name, .card-category {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.custom-btn {
+  background-color: #82001a;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
